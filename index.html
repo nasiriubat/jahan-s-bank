@@ -89,6 +89,7 @@
             const currentBalNum=parseFloat(currentBalance);
             const totalBal=currentBalNum+depositNumber;
             document.getElementById("currentBalance").innerText=totalBal;
+            document.getElementById("depositAmount").value="";
 
         })
 
@@ -105,6 +106,7 @@
             const currentBalNum=parseFloat(currentBalance);
             const totalBal=currentBalNum-withdrawNumber;
             document.getElementById("currentBalance").innerText=totalBal;
+            document.getElementById("withdrawAmount").value="";
     
 
         })
